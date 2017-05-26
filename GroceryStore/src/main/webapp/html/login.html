@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+<form action="login" method="post">
+	<div class="login_box">
+	<div>
+		<span id="close">X</span>
+	</div>
+	<div class="wrapper">
+			<div>
+				<label for="userName">
+					<span class="col-md-6">UserName:</span>
+					<input type="text" placeholder = "Enter User Name.." name="username" id="username" class="form-control col-md-6"/>
+				</label>
+			</div>
+			<div>
+				<label for="password">
+					<span class="col-md-6">Password:</span>
+					<input type="password" placeholder = "Enter Password.." name="password" id="password" class="form-control"/>
+				</label>
+			</div>	
+		<div>
+			<input type="submit" name="submit" value="Submit" class="btn btn-success" id="submitBtn"/>
+			<input type="button" name="cancel" value="Cancel" class="btn btn-default" id="cancelBtn"/>
+		</div>
+	</div>			
+	</div>
+</form>	
+</body>
+</html>

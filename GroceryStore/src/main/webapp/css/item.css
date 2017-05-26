@@ -1,0 +1,122 @@
+.editButton input, .deleteButton input {
+	width: 100%;
+}
+
+#currency {
+	padding: 5px;
+}
+
+.icon {
+	margin: 20px;
+	text-align: center;
+}
+
+.icon  span {
+	padding: 20px;
+	color: white;
+	border-radius: 90px;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+.shoppingCartIcon:hover {
+	cursor: pointer;
+}
+
+.wishListIcon:hover {
+	cursor: pointer;
+}
+
+.icon .shoppingCartIcon {
+	background-color: black;
+}
+
+.icon .wishListIcon_taken {
+	background-color: red;
+}
+
+.icon .wishListIcon_taken:hover {
+	cursor: pointer;
+}
+
+.icon .wishListIcon {
+	background-color: black;
+}
+
+.icon .fa {
+	font-size: 1.5em;
+}
+
+.item {
+	border: 1px solid black;
+	display: inline;
+	margin: 10px;
+}
+
+#wishListIcon_taken {
+	background-color: red;
+	color: blue;
+}
+
+.heading {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.8em;
+	color: green;
+	padding: 40px;
+	background-color: #2196F3;
+	color: white;
+}
+
+.wrapper {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 20px;
+	border-bottom: 1px solid #EFEBE9;
+	color: brown;
+	font-weight: bolder;
+}
+
+.itemName_cust, .price_cust {
+	text-align: center;
+	color: brown;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+.cust_wrapper {
+	margin: 0 auto;
+}
+
+.desc_cust {
+	text-align: center;
+	color: green;
+	margin-bottom: 20px;
+	padding: 40px;
+}
+
+.cust_item {
+	border: 1px solid black;
+	margin-left: 0 auto;
+	height: 520px;
+}
+
+.message {
+	margin-top: 20px;
+}
+
+.item_header {
+	padding: 40px;
+	background-color: #2196F3;
+}
+
+.item_header h1 {
+	text-align: center;
+	color: white;
+}
+
+html {
+	background-color: #F1F8E9;
+}

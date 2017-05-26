@@ -1,0 +1,9 @@
+#loginLink:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: blue;
+}
+
+#loginLink {
+	color: blue;
+}

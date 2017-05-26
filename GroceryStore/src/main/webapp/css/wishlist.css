@@ -1,0 +1,24 @@
+.wishListWrapper {
+	float: left;
+	margin: 40px;
+	border: 1px solid black;
+	width: 42%;
+}
+
+.wishlist_title_value {
+	font-weight: bolder;
+}
+
+.message {
+	margin-top: 20px;
+}
+
+.header {
+	padding: 40px;
+	background-color: #2196F3;
+}
+
+.header h1 {
+	text-align: center;
+	color: white;
+}

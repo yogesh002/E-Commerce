@@ -1,0 +1,41 @@
+.login_box {
+	width: 50%;
+	background-color: #9B26AF;
+	color: black;
+	margin: 0 auto;
+	height: 250px;
+	padding:10px;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+}
+.login_box div{
+	padding: 5px;
+	color: white;
+}
+
+#close {
+	float: right;
+	font-weight: bold;
+	color: aqua;
+}
+
+#close:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.buttonWrap input{
+	margin: 10px 10px 0px 0px;
+}
+
+span.col-md-6{
+	padding: 0px;
+	margin-bottom: 2px;
+}
